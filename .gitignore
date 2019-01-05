@@ -1,0 +1,64 @@
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+
+# NPM #
+##########
+node_modules
+package-lock.json
+npm-debug.log*
+
+# yarn #
+##########
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled Files and Build Dirs #
+##########
+/README.html
+/build/
+
+# Env files #
+######################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# VSCode Workspace Settings #
+.vscode
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
